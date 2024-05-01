@@ -1,10 +1,12 @@
-import { useEffect, useState } from "react";
+
 //import EditFormSection from "./components/EditFormSection/EditFormSection";
 //import StudentDetails from "./components/StudentDetails/StudentDetails";
 import './App.css';
 import Header from "./components/Header/Header";
 import StudentContainer from "./components/StudentDetails/StudentContainer";
-import StudentRecCont from "./components/StudentRecords/StudentRecCont";
+import StudentApplicant from "./components/StudentRecords/StudentApplicant";
+import QuestionCard from "./components/Questions/QuestionCard";
+import StudentEdit from "./components/EditFormSection/StudentEdit";
 function App() {
 
 
@@ -19,7 +21,10 @@ function App() {
      <StudentContainer/>
      </p>
      </main>
-     <StudentRecCont/>
+     <StudentApplicant/>
+     <QuestionCard/>
+    
+     <StudentEdit />
      </>
   );
 }

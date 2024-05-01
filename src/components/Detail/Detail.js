@@ -2,23 +2,36 @@ import React from 'react'
 
 const Detail = ({student}) => {
   const {
-    name,
-    username,
-    email,
-    image,
-    address,
-    phone,
-    website
+      id,
+      name,
+      imageUrl, 
+      username,
+      password,
+      email,
+      schedule,
+      address,
+      phone,
+       status,
+      program,
+      currentGrade,
+      balanceToPay
 
   } = student
   return (
     <div>
+         <h2>Identification number: {id}</h2>
         <h3>Name: {name}</h3>
+        <img className="image-container" src={imageUrl} alt={name} />
         <p>Username: {username}</p>
+        <p>Password: {password}</p>
         <p>email: {email}</p>
+        <p>Schedule: {schedule}</p>
         <p>address: {address}</p>
         <p>phone: {phone}</p>
-        <p>website: {website}</p>
+        <p>status: {status}</p>
+        <p> program: {program} </p>
+        <p> currentGrade: {currentGrade} </p>
+        <p> BalanceToPay: {balanceToPay}</p>
     </div>
   )
 }

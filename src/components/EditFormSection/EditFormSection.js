@@ -49,10 +49,10 @@ const onFormSubmit = (e) => {
   })
 }
   return (
-    <section className="edit-student-form-section">
-      <form className="edit-student-form" onSubmit={onFormSubmit}>
+    <section className='card1'>
+      <form  onSubmit={onFormSubmit}>
         <h1>Edit Student</h1>
-
+       <div className='card1'>
         <label htmlFor="id">ID</label>
         <input id="id" name="ID" type="text" value={formData.id} onChange={onInputChange}/>
         <label htmlFor="name">Name</label>
@@ -67,7 +67,7 @@ const onFormSubmit = (e) => {
         <input id="phone" name="phone" type="text"  value={formData.phone} onChange={onInputChange}/>
         <label htmlFor="website">Website</label>
         <input id="website" name="website" type="text"  value={formData.website} onChange={onInputChange}/>
-        
+        </div>
         <input type="submit" />
       </form>
     </section>
