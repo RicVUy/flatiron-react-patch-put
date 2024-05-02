@@ -13,7 +13,7 @@ function StudentEdit() {
     e.preventDefault();
 
     // Fetch employee data based on the entered ID
-    fetch(`students/${studentId}`)
+    fetch(`http://localhost:4001/students/${studentId}`)
       .then((resp) => {
         if (resp.status === 404) {
           throw new Error('student not found');
@@ -31,7 +31,7 @@ function StudentEdit() {
 
   const handleUpdateStudent = (updatedData) => {
     // Send a PATCH request to update the employee using updatedData
-    fetch(`/students/${studentId}`, {
+    fetch(`http://localhost:4001/students/${studentId}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',

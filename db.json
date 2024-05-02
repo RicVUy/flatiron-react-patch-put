@@ -2,7 +2,7 @@
   "students": [
     {
       "id": 1,
-      "name": "Woody",
+      "name": "Trump",
       "imageUrl": "https://vignette.wikia.nocookie.net/westworld/images/5/51/Dolores_Abernathy_Vanishing_Point.jpg/revision/latest?cb=20180613181613",
       "username": "Matrix28",
       "email": "Sincere@april.biz",
@@ -10,11 +10,26 @@
       "phone": "1-770-736-8031 x56442",
       "enrolled": true,
       "program": "software engineering",
-      "currentGrade": 0
-         }
-   
+      "currentGrade": "95",
+      "balanceToPay": "2000"
+    },
+    {
+      "name": "RICARDO UY V",
+      "idnumber": "202",
+      "imageUrl": "\"https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/piglet.jpg\",",
+      "username": "RicardoUy",
+      "password": "adobo",
+      "email": "rvuy62@yahoo.com",
+      "schedule": "Monday to Wednesday",
+      "address": "215 CHERRY ST",
+      "phone": "6305976145",
+      "status": "enrolled",
+      "program": "data analytics",
+      "currentGrade": "34",
+      "balanceToPay": "01234",
+      "id": 2
+    }
   ],
-
   "studentApplicants": [
     {
       "id": 1,
@@ -27,8 +42,34 @@
       "program": "Java",
       "interview": "",
       "admissionStatus": ""
+    },
+    {
+      "id": 2,
+      "fullName": "Arlan Vincent Diego Uy",
+      "username": "Arlan",
+      "email": "gnhs.com@gmail.com",
+      "address": "215 CHERRY ST South Elgin IL",
+      "phone": "6308910271",
+      "program": "to be a computer",
+      "question1": "to be a computer",
+      "question2": "",
+      "idnumber": "3",
+      "admissionStatus": "Because"
+    },
+    {
+      "id": 3,
+      "fullName": "Maria",
+      "username": "smile",
+      "email": "gnhs.com@gmail.com",
+      "address": "215 CHERRY ST South Elgin IL",
+      "phone": "6308910271",
+      "testScore": "",
+      "program": "Java",
+      "interview": "",
+      "admissionStatus": "",
+      "question1": "to be a computer scientist and earn billions of pesos",
+      "question2": "Because I like it",
+      "idnumber": "4"
     }
   ]
-  
 }
-

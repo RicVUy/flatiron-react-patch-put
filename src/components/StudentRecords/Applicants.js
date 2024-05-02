@@ -11,13 +11,15 @@ function Applicants({applicant}) {
         testScore,
         program,
         interview,
-        admissionStatus
+        admissionStatus,
+        question1,
+        question2
     } = applicant
 
 
   return (
     <div className='card'>
-        
+        <h3>Student Applicant</h3>
         <p>Identification number: {id}</p>
         <h4>Name: {fullName}</h4>
         <p>Username: {username}</p>
@@ -28,6 +30,8 @@ function Applicants({applicant}) {
         <p> program: {program} </p>
         <p> interview: {interview} </p>
         <p> Admission status: {admissionStatus}</p>
+        <p>question1: {question1}</p>
+        <p>question2: {question2}</p>
     </div>
         
   )

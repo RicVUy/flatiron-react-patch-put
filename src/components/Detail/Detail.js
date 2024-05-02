@@ -2,8 +2,9 @@ import React from 'react'
 
 const Detail = ({student}) => {
   const {
-      id,
+      
       name,
+      idNumber,
       imageUrl, 
       username,
       password,
@@ -19,8 +20,9 @@ const Detail = ({student}) => {
   } = student
   return (
     <div>
-         <h2>Identification number: {id}</h2>
+         
         <h3>Name: {name}</h3>
+        <p>Identification Number: {idNumber}</p>
         <img className="image-container" src={imageUrl} alt={name} />
         <p>Username: {username}</p>
         <p>Password: {password}</p>

@@ -1,13 +1,13 @@
-import React, {useState, useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import ApplicantDetails from './ApplicantDetails'
 
 function StudentApplicant() {
-    const [applicants, setApplicants] = useState([])
-useEffect(() => {
-    fetch("http://localhost:4001/studentApplicants") 
-    .then(r => r.json())
-  .then(setApplicants)
-}, [])
+  const [applicants, setApplicants] = useState([])
+  useEffect(() => {
+      fetch("http://localhost:4001/studentApplicants") 
+      .then(r => r.json())
+    .then(setApplicants)
+  }, [])
 
 
   return (

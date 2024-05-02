@@ -1,15 +1,8 @@
-import React, {useState, useEffect} from 'react'
+
 import StudentDetails from './StudentDetails'
 
-function StudentContainer() {
-const [students, setstudents] = useState([])
+function StudentContainer({students}) {
 
-useEffect(() => {
-  fetch("http://localhost:4001/students") 
-  .then(r => r.json())
-.then(setstudents)
-  
-}, [])
 
   return (
     <div>
