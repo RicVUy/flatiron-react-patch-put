@@ -19,7 +19,7 @@ const Detail = ({student}) => {
 
   } = student
   return (
-    <div>
+    <div className='card'>
          
         <h3>Name: {name}</h3>
         <p>Identification Number: {idNumber}</p>

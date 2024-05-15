@@ -16,7 +16,7 @@
     {
       "name": "RICARDO UY V",
       "idnumber": "202",
-      "imageUrl": "\"https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/piglet.jpg\",",
+      "imageUrl": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/trouble.jpg",
       "username": "RicardoUy",
       "password": "adobo",
       "email": "rvuy62@yahoo.com",
@@ -27,7 +27,24 @@
       "program": "data analytics",
       "currentGrade": "34",
       "balanceToPay": "01234",
-      "id": 2
+      "id": 2,
+      "userName": "Rick"
+    },
+    {
+      "name": "Merei Bertiz",
+      "idnumber": "3",
+      "imageUrl": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/peppa.jpg",
+      "username": "Merei",
+      "password": "alexa",
+      "email": "merei@yahoo.com",
+      "schedule": "Monday to Wednesday",
+      "address": "200 West North Ave",
+      "phone": "6308910271",
+      "status": "on leave",
+      "program": "Data Analytics",
+      "currentGrade": "NA",
+      "balanceToPay": "2000",
+      "id": 3
     }
   ],
   "studentApplicants": [
@@ -54,7 +71,9 @@
       "question1": "to be a computer",
       "question2": "",
       "idnumber": "3",
-      "admissionStatus": "Because"
+      "admissionStatus": "Because",
+      "testScore": "4",
+      "interview": "failed"
     },
     {
       "id": 3,
@@ -70,6 +89,20 @@
       "question1": "to be a computer scientist and earn billions of pesos",
       "question2": "Because I like it",
       "idnumber": "4"
+    },
+    {
+      "id": 4,
+      "fullName": "Eloise Uy",
+      "username": "Eloise",
+      "email": "Eloise@gmail.com",
+      "address": "Valley Dr. St Charles",
+      "phone": "12345",
+      "testScore": "5",
+      "program": "Java",
+      "interview": "good",
+      "admissionStatus": "admitted",
+      "question1": "to be a computer literate",
+      "question2": "none of your business"
     }
   ]
 }

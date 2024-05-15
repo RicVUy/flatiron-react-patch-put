@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
-//import EditFormSection from "./components/EditFormSection/EditFormSection";
-//import StudentDetails from "./components/StudentDetails/StudentDetails";
+
 import './App.css';
 import Header from "./components/Header/Header";
 import StudentContainer from "./components/StudentDetails/StudentContainer";
@@ -9,6 +8,7 @@ import QuestionCard from "./components/Questions/QuestionCard";
 import StudentEdit from "./components/EditFormSection/StudentEdit";
 import AddStudent from './components/AddStudent/AddStudent';
 import ApplicantForm from './components/ApplicantForm/ApplicantForm';
+import EditApplicant from './components/EditApplicant/EditApplicant';
 function App() {
   const [students, setstudents] = useState([])
 
@@ -46,6 +46,7 @@ function App() {
     <AddStudent onAddStudent={handleAddStudent}/>
     <ApplicantForm onAddApplicant={handleAddApplicant}/>
      <StudentEdit />
+     <EditApplicant />
      </>
   );
 }

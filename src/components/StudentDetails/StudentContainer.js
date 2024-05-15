@@ -5,7 +5,7 @@ function StudentContainer({students}) {
 
 
   return (
-    <div>
+    <div >
         <h1>Student Info</h1>
         <StudentDetails students={students}/>
         </div>

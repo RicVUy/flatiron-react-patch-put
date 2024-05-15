@@ -9,7 +9,7 @@ const StudentDetails = ({students}) => {
   return (
     <>
     <h2>Student Details</h2>
-    <div>
+    <div >
         {studentList}
     </div>
     </>
