@@ -9,7 +9,7 @@
       "address": "tyuiop[p[",
       "phone": "1-770-736-8031 x56442",
       "enrolled": true,
-      "program": "software engineering",
+      "program": "Software Engineering",
       "currentGrade": "95",
       "balanceToPay": "2000"
     },
@@ -24,7 +24,7 @@
       "address": "215 CHERRY ST",
       "phone": "6305976145",
       "status": "enrolled",
-      "program": "data analytics",
+      "program": "Data Analytics",
       "currentGrade": "34",
       "balanceToPay": "01234",
       "id": 2,
@@ -41,7 +41,7 @@
       "address": "200 West North Ave",
       "phone": "6308910271",
       "status": "on leave",
-      "program": "Data Analytics",
+      "program": "Java",
       "currentGrade": "NA",
       "balanceToPay": "2000",
       "id": 3

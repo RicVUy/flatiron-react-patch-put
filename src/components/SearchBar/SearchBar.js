@@ -4,7 +4,7 @@ function SearchBar({sortBy, setSortBy, filterBy, setFilterBy}) {
   return (
     <div className="search-bar">
       
-      <h3>Choose Products By Category</h3>
+      <h3>Choose Students By Program</h3>
       <strong>Sort by:</strong>
       <label>
         <input
@@ -19,22 +19,22 @@ function SearchBar({sortBy, setSortBy, filterBy, setFilterBy}) {
       <label>
         <input
           type="radio"
-          value="Price"
+          value="currentGrade"
           name="sort"
-          checked={sortBy === "Price"}
+          checked={sortBy === "currentGrade"}
           onChange={e => setSortBy(e.target.value)}
         />
-        Price
+        Program
       </label>
       <br />
       <label>
         <strong>Click to choose category:</strong>
         <select onChange={e => setFilterBy(e.target.value)} value={filterBy}>
-        <option value="">Choose Category</option>
+        <option value="">Choose Program</option>
         <option value="All">All</option>
           <option value="Java">Java</option>
           <option value="Data Analytics">Data Analytics</option>
-          <option value="Front End Engineering">Front End Engineering</option>
+          <option value="Software Engineering">Front End Engineering</option>
         </select>
       </label>
     </div>
